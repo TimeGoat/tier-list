@@ -94,6 +94,7 @@ h1 {
 /* coloring the tier list titles*/
 .title-s-tier {
   background-color: #ff7f7e;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .title-a-tier {
