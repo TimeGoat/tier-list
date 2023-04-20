@@ -120,6 +120,13 @@ h1 {
   background-color: #bf7fbe;
 }
 
+/* our mission page css  */
+
+.mission-statement-v0 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
 
 
 /* style for the tier list rows */
