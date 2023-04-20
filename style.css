@@ -1,58 +1,106 @@
-/* CSS Deliverables /
-/ Center each tier’s title */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  color: #fff;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 48px;
+}
+
+header p {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tier {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
 .tier h2 {
-text-align: center;
+  font-size: 36px;
+  margin-top: 0;
+  text-align: center;
+  color: #222;
 }
 
-/* Color the background of each tier’s title row with the following colors */
-.tier:nth-child(1) h2 {
-background-color: #ff7f7e;
+.tier:hover h3 {
+  text-shadow: 0 0 5px #fff;
 }
 
-.tier:nth-child(2) h2 {
-background-color: #ffbf7f;
+.tier h3 {
+  font-size: 24px;
+  margin-top: 0;
+  text-align: center;
+  color: #222;
+  cursor: pointer;
 }
 
-.tier:nth-child(3) h2 {
-background-color: #beff7f;
+.tier p {
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: justify;
+  display: none;
 }
 
-.tier:nth-child(4) h2 {
-background-color: #beff7f;
+.tier h2 {
+  text-align: center;
+  color: #fff;
 }
 
-.tier:nth-child(5) h2 {
-background-color: #7eff80;
+.tier.s {
+  background-color: #ff7f7e;
 }
 
-.tier:nth-child(6) h2 {
-background-color: #7fffff;
+.tier.a {
+  background-color: #ffbf7f;
 }
 
-.tier:nth-child(7) h2 {
-background-color: #bf7fbe;
+.tier.b {
+  background-color: #beff7f;
 }
 
-/* JS Deliverables /
-/ Slight Bloom on the <h3> when the cursor hovers on <h3> items */
-h3 {
-transition: all 0.3s ease-in-out;
+.tier.c {
+  background-color: #beff7f;
 }
 
-h3:hover {
-transform: scale(1.1);
+.tier.d {
+  background-color: #7eff80;
 }
 
-/* When <h3> is clicked a paragraph below appears with additional text in the form of a paragraph */
-h3 + p {
-display: none;
+.tier.e {
+  background-color: #7fffff;
 }
 
-h3.active + p {
-display: block;
+.tier.f {
+  background-color: #bf7fbe;
 }
-
-/* Add jQuery to toggle active class */
-$('h3').click(function() {
-$(this).toggleClass('active');
-});
