@@ -99,26 +99,32 @@ h1 {
 
 .title-a-tier {
   background-color: #ffbf7f;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .title-b-tier {
   background-color: #feff7f;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .title-c-tier {
   background-color: #beff7f;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .title-d-tier {
   background-color: #7eff80;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .title-e-tier {
   background-color: #7fffff;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .title-f-tier {
   background-color: #bf7fbe;
+  border-radius: 10px 10px 10px 10px;
 }
 
 /* our mission page css  */
