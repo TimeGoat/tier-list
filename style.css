@@ -7,6 +7,58 @@ body {
 }
 
 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #252525;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #ff7f7e;
+}
+
+.fab {
+  font-size: 24px;
+  color: #fff;
+}
+
+.fab:hover {
+  color: #ff7f7e;
+}
+
+header {
   background-color: #333;
   color: #fff;
   text-align: center;
@@ -103,4 +155,29 @@ main {
 
 .tier.f {
   background-color: #bf7fbe;
+}
+
+
+
+.tier h3 {
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+  background-color: #ff7f7e;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tier p {
+  display: none;
+  padding: 10px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.tier p.show {
+  display: block;
 }
