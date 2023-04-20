@@ -91,36 +91,64 @@ h1 {
   margin-bottom: 20px;
   padding: 10px;
 }
+/* coloring the tier list titles*/
 .title-s-tier {
   background-color: #ff7f7e;
 }
 
+.title-a-tier {
+  background-color: #ffbf7f;
+}
+
+.title-b-tier {
+  background-color: #beff7f;
+}
+
+.title-c-tier {
+  background-color: #beff7f;
+}
+
+.title-d-tier {
+  background-color: #7eff80;
+}
+
+.title-e-tier {
+  background-color: #7fffff;
+}
+
+.title-f-tier {
+  background-color: #bf7fbe;
+}
+
+
+
+/* style for the tier list rows */
 .s-tier-row {
 
 }
 
 .a-tier-row {
-  background-color: #ffbf7f;
+
 }
 
 .b-tier-row {
-  background-color: #beff7f;
+
 }
 
 .c-tier-row {
-  background-color: #beff7f;
+
 }
 
 .d-tier-row {
-  background-color: #7eff80;
+
 }
 
 .e-tier-row {
-  background-color: #7fffff;
+
 }
 
 .f-tier-row {
-  background-color: #bf7fbe;
+
 }
 
 .row {
