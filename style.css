@@ -9,7 +9,7 @@
 body {
   font-family: Arial, sans-serif;
   color: #fff;
-  background-color: #2b2d42; /* #2b2d42*/
+  background-color: #2b2d42;
 }
 
 a {
@@ -23,7 +23,7 @@ ul {
 
 /* Header styles */
 header {
-  background-color: #2d422b; /* #1d1f2f */
+  background-color: #808080; /* #1d1f2f */
   height: 80px;
   display: flex;
   justify-content: center;
