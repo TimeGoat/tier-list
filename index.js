@@ -4,11 +4,11 @@ tiers.forEach(tier => {
   const title = tier.querySelector('h3');
   const content = tier.querySelector('p');
   
-  title.addEventListener('mouseover', () => {
+  title.addEventListener('mouseenter', () => {
     title.style.textShadow = '0 0 10px #ff7f7e';
   });
   
-  title.addEventListener('mouseout', () => {
+  title.addEventListener('mouseleave', () => {
     title.style.textShadow = '';
   });
   
