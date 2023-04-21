@@ -171,7 +171,6 @@ h1 {
 .toggle-paragraph-content.show {
   
   max-height: 500px;
-  min-height: 500px;
   transition: max-height 0.2s ease-in;
 } 
 
