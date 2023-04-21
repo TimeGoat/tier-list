@@ -165,6 +165,7 @@ h1 {
 
 /* This CSS sets the initial height of the <p> element to 0 and hides any overflow. When the "show" class is added to the <p> element, its max-height property is set to 500px, which will expand the paragraph to a height of 500px. The transition property is used to animate the expansion and collapse of the paragraph. */
 .toggle-paragraph-content {
+  
   max-height: 0;
   overflow: hidden; /* when we comment this line out = https://i.gyazo.com/361bd0e5c4c25fb50b6d54a9c2a7fe36.png */
   font-size: 1rem;
@@ -175,7 +176,6 @@ h1 {
 .toggle-paragraph-content.show { /* i think this is where our problem lies */
   max-height: 1000px;
   transition: max-height 0.2s ease-in;
-  overflow-wrap: break-word;
 } 
 
 .row {
