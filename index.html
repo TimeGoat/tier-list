@@ -102,7 +102,25 @@
             </div>
         </section>
     </main>
+    
+    
+    
+    
 <script>
+    const toggleParagraphs = document.querySelectorAll('.toggle-paragraph');
+toggleParagraphs.forEach(paragraph => {
+  paragraph.addEventListener('click', () => {
+    paragraph.nextElementSibling.classList.toggle('show');
+  });
+});
+    
+    
+    
+    
+    
+    
+    
+    /*
   // Get all the toggle-paragraph elements
   const toggles = document.querySelectorAll('.toggle-paragraph');
   
@@ -126,7 +144,8 @@
         content.style.textAlign = 'center';
       }
     });
-  });
-</script>
+  }); 
+  */
+</script> 
 </body>
 </html>
