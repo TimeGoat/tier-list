@@ -45,7 +45,9 @@ ul {
 }
 /* logo css */
 .logo {
-margin-right: 10px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Header styles */
