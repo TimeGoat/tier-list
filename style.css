@@ -175,10 +175,13 @@ h1 {
 
 .toggle-paragraph-content.show { /* i think this is where our problem lies */
   display: block;
-  max-height: 1000px;
+  max-height: auto;
   transition: max-height 0.2s ease-in;
 } 
 
+.s-tier-row{
+height: auto;
+}
 .row {
   display: flex;
   justify-content: space-between;
