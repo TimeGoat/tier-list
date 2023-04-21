@@ -95,6 +95,31 @@
             </div>
         </section>
     </main>
-
+<script>
+  // Get all the toggle-paragraph elements
+  const toggles = document.querySelectorAll('.toggle-paragraph');
+  
+  // Loop through all the toggle-paragraph elements
+  toggles.forEach(function(toggle) {
+    // Add a click event listener to each toggle-paragraph element
+    toggle.addEventListener('click', function() {
+      // Get the corresponding toggle-paragraph-content element
+      const content = this.nextElementSibling;
+      
+      // Check if the content element is visible
+      if (content.style.display === 'block') {
+        // Hide the content element
+        content.style.display = 'none';
+      } else {
+        // Show the content element
+        content.style.display = 'block';
+        // Add 20px of padding to the content element
+        content.style.padding = '20px';
+        // Center the text in the content element
+        content.style.textAlign = 'center';
+      }
+    });
+  });
+</script>
 </body>
 </html>
