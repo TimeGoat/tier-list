@@ -166,7 +166,6 @@ h1 {
 
 /* This CSS sets the initial height of the <p> element to 0 and hides any overflow. When the "show" class is added to the <p> element, its max-height property is set to 500px, which will expand the paragraph to a height of 500px. The transition property is used to animate the expansion and collapse of the paragraph. */
 .toggle-paragraph-content {
-  display: none;
   max-height: 0;
   overflow: hidden;
   font-size: 1rem;
