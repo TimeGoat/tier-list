@@ -102,7 +102,7 @@ main {
 h1 {
   font-size: 3rem;
   margin-bottom: 30px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .tier {
@@ -168,6 +168,7 @@ h1 {
 }
 
 .toggle-paragraph-content.show {
+  
   max-height: 500px;
   min-height: 500px;
   transition: max-height 0.2s ease-in;
