@@ -16,3 +16,12 @@ tiers.forEach(tier => {
     content.classList.toggle('show');
   });
 });
+
+const headings = document.querySelectorAll('.toggle-paragraph');
+headings.forEach(heading => {
+  heading.addEventListener('click', () => {
+    const paragraph = heading.nextElementSibling;
+    const row = heading.parentElement;
+    row.classList.toggle('show');
+  });
+});
