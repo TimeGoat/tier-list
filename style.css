@@ -203,7 +203,7 @@ nav li:last-child {
   margin-right: 0;
 }
 
-nav a {
+.socials-icons {
   display: block;
   height: 30px;
   width: 30px;
