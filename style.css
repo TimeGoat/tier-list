@@ -43,6 +43,10 @@ nav ul li a i {
 ul {
   list-style: none;
 }
+/* logo css */
+.logo {
+margin-right: 10px;
+}
 
 /* Header styles */
 header {
