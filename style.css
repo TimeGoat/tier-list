@@ -105,9 +105,6 @@ h1 {
   text-align: center;
 }
 
-h3 {
-  text-align: center;
-}
 .tier {
   margin-bottom: 50px;
 }
@@ -176,6 +173,10 @@ h3 {
   transition: max-height 0.2s ease-in;
 } 
 
+.toggle-paragraph {
+  text-align: center;
+}
+
 .row {
   display: flex;
   justify-content: space-between;
@@ -190,3 +191,4 @@ h3 {
 
 h3:hover {
   transform: scale(1.15);
+}
