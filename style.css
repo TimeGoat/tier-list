@@ -172,7 +172,7 @@ h1 {
   transition: max-height 0.2s ease-out;
 }
 
-.toggle-paragraph-content.show {
+.toggle-paragraph-content.show { /* i think this is where our problem lies */
   max-height: 1000px;
   transition: max-height 0.2s ease-in;
 } 
