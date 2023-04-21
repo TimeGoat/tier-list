@@ -163,6 +163,7 @@ h1 {
 .toggle-paragraph-content {
   max-height: 0;
   overflow: hidden;
+  font-size: 1rem;
   transition: max-height 0.2s ease-out;
 }
 
@@ -192,7 +193,3 @@ h1 {
 
 h3:hover {
   transform: scale(1.15);
-}
-.toggle-paragraph-content {
-  font-size: 1rem;
-}
