@@ -187,15 +187,6 @@ h1 {
   padding: 10px 20px;
 }
 
-.toggle-paragraph-content {
-    display: none;
-}
-/* This CSS code sets the .toggle-paragraph-content to display: none by default, and then when the .toggle-paragraph class is active (i.e., clicked), it displays the .toggle-paragraph-content block using display: block.
-
-You also need to modify the HTML code by wrapping the content that needs to be toggled inside a container div with the class toggle-paragraph-content. Here's an updated version of the HTML code for the S Tier section as an example: */
-.toggle-paragraph.active + .toggle-paragraph-content {
-    display: block;
-}
 h3.toggle-paragraph {
   font-size: 1.5rem;
   text-align: center;
