@@ -188,6 +188,17 @@ h1 {
 .f-tier-row {
 
 }
+/* This CSS sets the initial height of the <p> element to 0 and hides any overflow. When the "show" class is added to the <p> element, its max-height property is set to 500px, which will expand the paragraph to a height of 500px. The transition property is used to animate the expansion and collapse of the paragraph. */
+.additional-info {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.additional-info.show {
+  max-height: 500px;
+  transition: max-height 0.2s ease-in;
+} 
 
 .row {
   display: flex;
