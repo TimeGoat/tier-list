@@ -175,6 +175,7 @@ h1 {
 .toggle-paragraph-content.show { /* i think this is where our problem lies */
   max-height: 1000px;
   transition: max-height 0.2s ease-in;
+  overflow-wrap: break-word;
 } 
 
 .row {
