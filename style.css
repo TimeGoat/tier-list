@@ -170,7 +170,15 @@ h1 {
   max-height: 500px;
   transition: max-height 0.2s ease-in;
 } 
+/* might need to remove these 2 functions 10:08pm */
+.toggle-paragraph-content {
+  display: none;
+}
 
+.toggle-paragraph {
+  cursor: pointer;
+  text-decoration: underline;
+}
 .row {
   display: flex;
   justify-content: space-between;
