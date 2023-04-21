@@ -164,6 +164,7 @@ h1 {
   max-height: 0;
   overflow: hidden;
   font-size: 1rem;
+  text-align: center;
   transition: max-height 0.2s ease-out;
 }
 
