@@ -19,6 +19,10 @@ body {
   height: 100%;
 }
 
+p {
+  white-space: pre-wrap;
+}
+
 a {
   text-decoration: none;
   color: inherit;
