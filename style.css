@@ -167,7 +167,7 @@ h1 {
 .toggle-paragraph-content {
   display: none;
   max-height: 0;
-  overflow: hidden; /* when we comment this line out = https://i.gyazo.com/361bd0e5c4c25fb50b6d54a9c2a7fe36.png */
+  /* overflow: hidden;  when we comment this line out = https://i.gyazo.com/361bd0e5c4c25fb50b6d54a9c2a7fe36.png */
   font-size: 1rem;
   text-align: center;
   transition: max-height 0.2s ease-out;
