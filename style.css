@@ -23,7 +23,22 @@ a {
   text-decoration: none;
   color: inherit;
 }
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
 
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a i {
+  font-size: 1.2rem;
+}
 ul {
   list-style: none;
 }
