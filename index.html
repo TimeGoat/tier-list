@@ -35,7 +35,7 @@
             <h2>S Tier</h2>
             </div>    
             <div class="row s-tier-row">
-                <h3>Slick Dragon</h3>
+                <h3 class="toggle-paragraph">Slick Dragon</h3>
                 <p class="additional-info"></p>
             </div>
         </section>
@@ -44,7 +44,7 @@
             <h2>A Tier</h2>
             </div>    
             <div class="row a-tier-row">
-                <h3>Spicy Dragon</h3>
+                <h3 class="toggle-paragraph">Spicy Dragon</h3>
                 <p class="additional-info"></p>
             </div>
         </section>
@@ -53,7 +53,7 @@
             <h2>B Tier</h2>
             </div>
             <div class="row b-tier-row">
-                <h3>Short Dragon</h3>
+                <h3 class="toggle-paragraph">Short Dragon</h3>
                 <p class="additional-info"></p>
             </div>
         </section>
@@ -62,7 +62,7 @@
             <h2>C Tier</h2>
             </div>
             <div class="row c-tier-row">
-                <h3>Tall Dragon</h3>
+                <h3 class="toggle-paragraph">Tall Dragon</h3>
                 <p class="additional-info"></p>
             </div>
         </section>
@@ -71,7 +71,7 @@
             <h2>D Tier</h2>
             </div>
             <div class="row d-tier-row">
-                <h3>Fluffy Dragon</h3>
+                <h3 class="toggle-paragraph">Fluffy Dragon</h3>
                 <p class="additional-info"></p>
             </div>
         </section>
@@ -80,7 +80,7 @@
             <h2>E Tier</h2>
             </div>
             <div class="row e-tier-row">
-                <h3>Smooth Dragon</h3>
+                <h3 class="toggle-paragraph">Smooth Dragon</h3>
                 <p class="additional-info"></p>
             </div>
         </section>
@@ -89,10 +89,19 @@
             <h2>F Tier</h2>
             </div>
             <div class="row f-tier-row">
-                <h3>Spikey Dragon</h3>
+                <h3 class="toggle-paragraph">Lush Dragon</h3>
                 <p class="additional-info"></p>
             </div>
         </section>
     </main>
+<script> /* This script selects all the <h3> elements on the page and adds a click event listener to each of them. When the <h3> element is clicked, the script finds the next sibling element (in this case, the <p> element) and toggles its "show" class. The "show" class will be used to toggle the visibility of the paragraph. */
+  const headings = document.querySelectorAll('h3');
+  headings.forEach(heading => {
+    heading.addEventListener('click', () => {
+      const paragraph = heading.nextElementSibling;
+      paragraph.classList.toggle('show');
+    });
+  });
+</script>
 </body>
 </html>
