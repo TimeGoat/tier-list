@@ -174,10 +174,6 @@ h1 {
   transition: max-height 0.2s ease-in;
 } 
 
-.toggle-paragraph {
-  text-align: center;
-}
-
 .row {
   display: flex;
   justify-content: space-between;
@@ -185,7 +181,7 @@ h1 {
   padding: 10px 20px;
 }
 
-.row h3 {
+h3 {
   font-size: 1.5rem;
   text-align: center;
 }
