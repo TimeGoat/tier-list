@@ -44,18 +44,6 @@ ul {
   list-style: none;
 }
 
-/* logo top left */
-.logo {
-  display: inline-block;
-  width: 50px; /* adjust the width to your preferred size */
-  height: 50px; /* adjust the height to your preferred size */
-  background-image: url('path/to/your/image.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 10px; /* adjust the margin to your preferred position */
-}
-
 /* Header styles */
 header {
   background-color: #2b2e41;
