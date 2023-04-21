@@ -1,3 +1,16 @@
+const headings = document.querySelectorAll('.toggle-paragraph');
+headings.forEach(heading => {
+  heading.addEventListener('click', () => {
+    const paragraph = heading.nextElementSibling;
+    const row = heading.parentElement;
+    row.classList.toggle('show');
+  });
+});
+
+
+
+
+
 const tiers = document.querySelectorAll('.tier');
 
 tiers.forEach(tier => {
@@ -17,11 +30,4 @@ tiers.forEach(tier => {
   });
 });
 
-const headings = document.querySelectorAll('.toggle-paragraph');
-headings.forEach(heading => {
-  heading.addEventListener('click', () => {
-    const paragraph = heading.nextElementSibling;
-    const row = heading.parentElement;
-    row.classList.toggle('show');
-  });
-});
+
