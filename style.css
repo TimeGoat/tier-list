@@ -177,6 +177,8 @@ h1 {
 .row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
   padding: 10px 20px;
 }
 
