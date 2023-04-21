@@ -76,10 +76,10 @@ nav {
 
 /* Main styles */
 main {
+  background-color: #171823;
   max-width: 1200px;
   margin: 0 auto;
   padding: 50px 20px;
-  background-color: #171823;
 }
 
 h1 {
