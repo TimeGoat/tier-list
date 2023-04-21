@@ -159,35 +159,6 @@ h1 {
   text-align: center;
 }
 
-
-/* style for the tier list rows */
-.s-tier-row {
-
-}
-
-.a-tier-row {
-
-}
-
-.b-tier-row {
-
-}
-
-.c-tier-row {
-
-}
-
-.d-tier-row {
-
-}
-
-.e-tier-row {
-
-}
-
-.f-tier-row {
-
-}
 /* This CSS sets the initial height of the <p> element to 0 and hides any overflow. When the "show" class is added to the <p> element, its max-height property is set to 500px, which will expand the paragraph to a height of 500px. The transition property is used to animate the expansion and collapse of the paragraph. */
 .additional-info {
   max-height: 0;
