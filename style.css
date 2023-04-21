@@ -26,6 +26,7 @@ a {
 nav ul {
   display: flex;
   justify-content: space-between;
+  align-items: center; /* added align-items property to center items vertically */
 }
 
 nav ul li {
