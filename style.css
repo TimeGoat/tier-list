@@ -157,7 +157,6 @@ h1 {
 }
 
 /* our mission page css  */
-
 .mission-statement-v0 {
   margin-top: 10px;
   font-size:20px;
@@ -171,12 +170,11 @@ h1 {
   font-size: 1rem;
   text-align: center;
   transition: max-height 0.2s ease-out;
-  
+  white-space: pre-wrap;
 }
 
 .toggle-paragraph-content.show {
-  
-  max-height: 500px;
+  max-height: 1000px;
   transition: max-height 0.2s ease-in;
 } 
 
