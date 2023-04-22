@@ -176,11 +176,13 @@ h1 {
 .toggle-paragraph-content.show { /* i think this is where our problem lies */
   display: block;
   max-height: 500px;
+  padding: 10px;
   transition: max-height 0.2s ease-in;
 } 
 
 .show {
   display: block;
+  padding: 10px;
 }
 
 .row {
