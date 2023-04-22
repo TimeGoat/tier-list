@@ -179,6 +179,9 @@ h1 {
   transition: max-height 0.2s ease-in;
 } 
 
+.show {
+  display: block;
+}
 
 .row {
   display: flex;
